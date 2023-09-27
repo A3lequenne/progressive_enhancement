@@ -1,5 +1,5 @@
 html {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: "Open Sans", sans-serif;
     color: #111111;
 }
 
@@ -97,21 +97,21 @@ tr:nth-child(even) {
     background-image: url(bien.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 250px;
+    background-position: 275px;
 }
 
 .bad_img {
     background-image: url(mal.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 240px;
+    background-position: 265px;
 }
 
 .cat_img {
     background-image: url(chat.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 235px;
+    background-position: 260px;
 }
 
 .flex_container {
