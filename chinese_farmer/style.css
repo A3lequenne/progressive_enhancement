@@ -24,14 +24,42 @@ blockquote {
 
 q {
     font-size: 1.6rem;
+    padding-left: 10px;
+    font-style: italic;
     background-color: #d3d3d3;
+}
+
+header > blockquote > p > q{
+    background-color: yellow;
+}
+
+.author {
     border-left: 3px solid firebrick;
-    padding-left: 30px;
+}
+
+.farmer {
+    border-left: 3px solid #b2216a;
+}
+
+.villager {
+    border-left: 3px solid #b26921;
 }
 
 p {
     letter-spacing: 0.5px;
     color:#111111;
+}
+
+.good, .bad {
+    text-transform: capitalize;
+}
+
+.bad {
+    color: firebrick;
+}
+
+.good {
+    color: green;
 }
 
 a {
@@ -51,4 +79,20 @@ table, th, tr, td {
     border: 1px solid #111111;
     border-collapse: collapse;
     padding: 3px;
+}
+
+th {
+    background-color: #fff;
+}
+
+tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+#Thumbs_up {
+    padding-right: 50px;
 }
