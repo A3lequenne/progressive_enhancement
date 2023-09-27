@@ -114,44 +114,16 @@ tr:nth-child(even) {
     background-position: 235px;
 }
 
-#wtf {
+.flex_container {
     display: flex;
     flex-wrap: wrap;
 }
 
-#wtf_txt {
+.text_container {
     flex: 1;
     padding: 10px;
 }
 
-#wtf_img {
-    flex: 0 0 200px;
-}
-
-#story {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#story_txt {
-    flex: 1;
-    padding: 10px;
-}
-
-#story_img {
-    flex: 0 0 200px;
-}
-
-#space {
-    display: flex;
-    flex-wrap: wrap;    
-}
-
-#space_txt {
-     flex: 1;
-     padding: 10px;
-}
-
-#space_img {
+.img_container {
     flex: 0 0 200px;
 }
