@@ -93,6 +93,65 @@ tr:nth-child(even) {
     background-color: #fff;
 }
 
-#Thumbs_up {
-    padding-right: 50px;
+.good_img {
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 250px;
+}
+
+.bad_img {
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 240px;
+}
+
+.cat_img {
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 235px;
+}
+
+#wtf {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#wtf_txt {
+    flex: 1;
+    padding: 10px;
+}
+
+#wtf_img {
+    flex: 0 0 200px;
+}
+
+#story {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#story_txt {
+    flex: 1;
+    padding: 10px;
+}
+
+#story_img {
+    flex: 0 0 200px;
+}
+
+#space {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+#space_txt {
+     flex: 1;
+     padding: 10px;
+}
+
+#space_img {
+    flex: 0 0 200px;
 }
