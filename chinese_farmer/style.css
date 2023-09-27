@@ -1,0 +1,54 @@
+html {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #111111;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    background-color: linear-gradient(135deg, #D95C5E, #14375A);
+    background-image: url(https://wallpapers.com/images/high/light-color-smoke-art-2ius9lpteovzjquv.webp);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+}
+
+blockquote {
+    width: 50%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+q {
+    font-size: 1.6rem;
+    background-color: #d3d3d3;
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+}
+
+p {
+    letter-spacing: 0.5px;
+    color:#111111;
+}
+
+a {
+    color:#001f3f;
+    font-style: italic;
+}
+
+a:visited {
+    color: #4B0082;
+}
+
+a:hover {
+    color: #630606;
+}
+
+table, th, tr, td {
+    border: 1px solid #111111;
+    border-collapse: collapse;
+    padding: 3px;
+}
